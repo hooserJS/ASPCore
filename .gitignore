@@ -1,1 +1,5 @@
 ASPCore/obj/
+RazorPages/obj/
+RazorPages/wwwroot/
+RazorPages/bin/
+.vs/ASPCore/

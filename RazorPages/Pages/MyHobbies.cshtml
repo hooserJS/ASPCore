@@ -1,0 +1,15 @@
+﻿@page
+@model RazorPages.Pages.MyHobbiesModel
+@{
+    ViewData["Title"] = "My hobbies";
+}
+<section id= "hobbi">
+    <h3>My hobbies</h3>
+
+    <ul>
+     @foreach(var i in Model.HobbiesList )
+    {
+      <li>Id = @i.Id, Name = @i.HobbieName;</li>  
+    }
+    </ul>
+</section>
